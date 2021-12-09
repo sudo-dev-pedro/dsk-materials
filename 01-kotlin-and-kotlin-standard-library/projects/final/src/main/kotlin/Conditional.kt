@@ -34,17 +34,15 @@ fun main() {
     val b = 12
     var max = -1
 
-    if (a > b) {
-        max = a
+    max = if (a > b) {
+        a
     } else {
-        max = b
+        b
     }
 
     println(max) // prints 12
 
-
-    val groupSize = 3
-    when (groupSize) {
+    when (3) {
         1 -> println("Single")
         2 -> println("Pair")
         3 -> { // Note the block

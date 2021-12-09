@@ -28,7 +28,10 @@
  * THE SOFTWARE.
  */
 
-data class Car(val name: String, var doors: Int = 4) {
+data class Car(
+    val name: String,
+    var doors: Int = 4
+) {
     fun drive() {}
 }
 

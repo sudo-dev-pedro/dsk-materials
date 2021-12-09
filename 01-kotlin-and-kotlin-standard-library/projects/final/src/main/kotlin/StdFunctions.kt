@@ -68,5 +68,5 @@ fun printCar4(car: Car?) {
 }
 
 fun main() {
-
+    printCar3(Car("Aston-Martin"))
 }

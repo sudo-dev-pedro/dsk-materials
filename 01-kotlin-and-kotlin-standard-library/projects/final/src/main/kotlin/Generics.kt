@@ -62,7 +62,9 @@ class Box<T> {
 fun main() {
     val box = Box<Int>()
     box.put(4)
+
     val boolBox = Box<Boolean>()
     boolBox.put(true)
+
     boolBox.isEmpty()
 }
